@@ -1,0 +1,20 @@
+/* Product list Page */
+.product-list{
+    display:'flex';
+    flex-direction: row;
+  }
+
+  .cart-price{
+    position: relative;
+    right: 103px;
+    top:5px;
+  }
+  .add{
+    position: relative;
+    width: 200px;
+  }
+
+  .cart-checkbox {
+    top: 65px;
+    position: relative;
+}

@@ -1,0 +1,195 @@
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.site-layout .site-layout-background {
+  background: #fff;
+}
+.ant-layout-sider{
+  height: 100vh !important;
+  background-color: #fff !important;
+}
+.ant-layout-header{
+  height: 80px !important;
+}
+.ant-layout-header span svg{
+  height: 25px !important;
+  width: 25px !important;
+  margin-left: 10px !important;
+}
+.logo{
+  margin: 10px;
+  background-color: #fff;
+}
+.profile-pic{
+  padding: 0px 20px 20px 20px;
+  margin: 0px 30px 20px 20px;
+  cursor: pointer;
+}
+.close{
+  font-size: 20px;
+  cursor: pointer;
+  margin: 5px;
+}
+.ant-menu-title-content a{
+  text-decoration: none;
+  font-weight: bold;
+}
+.list{
+  background-color: #fff;
+  margin: 3px;
+}
+.bs{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.first-list{
+  border-radius: 15px;
+  margin: 5px;
+}
+.first-list h6{
+  font-size: 14px;
+  padding: 2px;
+  margin: 2px;
+}
+.flex{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-around !important;
+}
+.title h2{
+  color: #a0211fe5 !important;
+  margin: 20px;
+  font-weight: bold;
+}
+input, .ant-input{
+  border: 1px solid #58574d;
+  box-shadow: none !important;
+  border-radius: 50px !important;
+}
+.search span{
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  color: #b7acac;
+}
+.fonticon{
+  margin: 2px;
+}
+.add{
+  margin-top: 30px;
+}
+.add span{
+  padding: 5px;
+  margin: 10px;
+  font-size: 20px;
+}
+.add span Button{
+  background-color: #a7a3a3;
+  font-size: large;
+}
+.price{
+  margin: 10px 30px 0px 0px;
+  font-size: 20px;
+}
+.chat{
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  z-index: 9;
+}
+.chat img{
+  height: 60px;
+  cursor: pointer;
+  margin: 5px;
+}
+.register{
+  height: 100vh !important;
+}
+.products{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: #6b92b7; */
+  border-radius: 6px;
+  padding: 1.5rems;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.product{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.productInput{
+  min-height: 1.5rem;
+  width: 1.5em;
+  border: 1px solid #555544;
+  position: relative;
+}
+.productInput > input {
+  appearance: none;
+}
+.product > label > span {
+  font-size: 0.875rem;
+  margin-left: 0.25rem;
+  font-weight: 100;
+}
+.productInputBefore{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #1890ff;
+  z-index: 1;
+}
+.productInputAfter{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.productInput,
+.product > label {
+  cursor: pointer;
+}
+.filters{
+  min-height: 3rem;
+  background-color: #a7a79b;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  gap: 1rem;
+}
+.option{
+  background: whitesmoke;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition-duration: 300ms;
+}
+.option:hover{
+  background: #fbfbdd;
+}
+

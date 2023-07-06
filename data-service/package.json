@@ -1,0 +1,41 @@
+{
+  "name": "data-service",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "debug": "nodemon --inspect ./bin/www",
+    "server": "node app.js",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-redis": "^5.0.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "debug": "~2.6.9",
+    "dom-parser": "^0.1.6",
+    "dotenv": "^8.2.0",
+    "express-fileupload": "^1.2.1",
+    "express-session": "^1.17.1",
+    "formidable": "^1.2.2",
+    "jade": "^1.11.0",
+    "jsdom": "^16.4.0",
+    "moment": "^2.29.1",
+    "morgan": "~1.9.1",
+    "msnodesqlv8": "^4.1.0",
+    "mssql": "^9.1.1",
+    "node-html-parser": "^3.0.3",
+    "nodejs-nodemailer-outlook": "^1.2.3",
+    "nodemailer": "^6.4.18",
+    "pg": "^8.3.3",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "express": "^4.18.2",
+    "webpack-dev-middleware": "^6.1.1"
+  }
+}
